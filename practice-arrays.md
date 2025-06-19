@@ -29,10 +29,12 @@ What is the syntax for adding a new item to the end of the array?
 
 2. Read the following code and answer the questions.
 
+```
 let sisters = ["paula", "tina", "mara"];
 let brothers = ["juan", "edgar"];
 let siblings = sisters.concat(brothers);
 let eldest = siblings[3];
+```
 
 What is the value of `siblings`?
 
@@ -49,8 +51,11 @@ What is the value of `eldest`?
 </details>
 
 3. Read the following code and answer the questions.
+
+```
    let shoppingList = ["eggs", "milk", "bread", "tomato sauce", "garlic"];
    shoppingList[1] = "soy milk";
+```
 
 What is happening in line 2? What is the new value of `shoppingList`?
 
@@ -73,9 +78,12 @@ How can we remove the last two items from the array? In otherwords, we want to m
 </details>
 
 4. Read the following incorrect code and answer the questions.
+
+```
    let todoArray = ("walk the dog", "cook lunch", "make the bed", "vacuum");
    todoArray.push("water plants");
    console.log(todoArray[6]);
+```
 
 What is wrong with this code?
 
