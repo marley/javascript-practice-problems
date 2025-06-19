@@ -126,7 +126,7 @@ console.log(todoArray[5]);
 **a) Create an array of strings called `familyArr`. Every item is a name of a family member. The array should have length 6. The family member at index 2 should have the same name as the family member at index 5.**
 
 <details>
-<summary>solution</summary>
+<summary>example solution</summary>
 <br>
 
 ```
@@ -138,7 +138,7 @@ let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 **b) Create a variable called `daughter` and set it equal to one of the `familyArr` items.**
 
 <details>
-<summary>solution</summary>
+<summary>example solution</summary>
 <br>
 
 ```
@@ -151,7 +151,7 @@ let daughter = familyArr[0];
 **c) Create a variable that is equal to `familyArr` index 3. You can name this variable whatever you like.**
 
 <details>
-<summary>solution</summary>
+<summary>example solution</summary>
 <br>
 
 ```
