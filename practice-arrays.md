@@ -46,7 +46,7 @@ let eldest = siblings[3];
 <details>
 <summary>solution</summary>
 <br>
-  In line 3, we use the Array.concat() method to combine the two arrays. Thus, the value of siblings is `["paula", "tina", "mara", "juan", "edgar"]`. You can read about `.concat()` and other the Array methods on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">MDN</a>.
+  In line 3, we use the `Array.concat()` method to combine the two arrays. Thus, the value of siblings is `["paula", "tina", "mara", "juan", "edgar"]`. You can read about `.concat()` and other the Array methods on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">MDN</a>.
 </details>
 
 **What is the value of `eldest`?**
@@ -77,14 +77,16 @@ let eldest = siblings[3];
 <details>
 <summary>hint</summary>
 <br>
-  HINT: There are several ways to do this. On a google search of "remove last two items of array js", the first results speak of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">Array.pop()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Array.splice()</a>. Try searching these before you look at final solution.
+  HINT: There are several ways to do this. From a google search of "remove last two items of array js", the first results are <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">Array.pop()</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Array.splice()</a>. Try searching these before you look at final solution.
 </details>
 
 <details>
 <summary>solution</summary>
 <br>
   Using `Array.pop()`: .pop() removes the last item of an array, so you could have to repeat `shoppingList.pop();` twice.
-  Using `Array.splice()`: .splice() has several options for syntax. Here we can use two parameters which represent starting index and delete count like so: shoppingList.splice(startIndex, deleteCount). Since we want to delete the last 2 items, we have to start at index 2 and delete 2 items: `shoppingList.splice(2, 2);`
+
+Using `Array.splice()`: .splice() has several options for syntax. Here we can use two parameters which represent starting index and delete count like so: shoppingList.splice(startIndex, deleteCount). Since we want to delete the last 2 items, we have to start at index 2 and delete 2 items: `shoppingList.splice(2, 2);`
+
 </details>
 
 ## 4.
@@ -110,11 +112,13 @@ let eldest = siblings[3];
 <summary>solution</summary>
 <br>
 Add square brackets and use an index that is within the range of this array.
-  ```
-  let todoArray = ["walk the dog", "cook lunch", "make the bed", "vacuum"];
-  todoArray.push("water plants");
-  console.log(todoArray[5]);
-  ```
+
+```
+let todoArray = ["walk the dog", "cook lunch", "make the bed", "vacuum"];
+todoArray.push("water plants");
+console.log(todoArray[5]);
+```
+
 </details>
 
 ## 5.
@@ -136,10 +140,12 @@ let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 <details>
 <summary>solution</summary>
 <br>
+
 ```
 let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 let daughter = familyArr[0];
 ```
+
 </details>
 
 **c) Create a variable that is equal to `familyArr` index 3. You can name this variable whatever you like.**
@@ -147,9 +153,11 @@ let daughter = familyArr[0];
 <details>
 <summary>solution</summary>
 <br>
+
 ```
 let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 let daughter = familyArr[0];
 let grandfather = familyArr[3];
 ```
+
 </details>
