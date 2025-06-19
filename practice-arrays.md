@@ -3,8 +3,8 @@
 ## 1.
 
 ```
-let fibonacci = [1, 1, 2, 3, 5, 8, 13];
-console.log(fibonacci[2]);
+  let fibonacci = [1, 1, 2, 3, 5, 8, 13];
+  console.log(fibonacci[2]);
 ```
 
 **How would you explain this code to someone else? Use your own words.**
@@ -35,10 +35,10 @@ console.log(fibonacci[2]);
 ## 2.
 
 ```
-let sisters = ["paula", "tina", "mara"];
-let brothers = ["juan", "edgar"];
-let siblings = sisters.concat(brothers);
-let eldest = siblings[3];
+  let sisters = ["paula", "tina", "mara"];
+  let brothers = ["juan", "edgar"];
+  let siblings = sisters.concat(brothers);
+  let eldest = siblings[3];
 ```
 
 **What is the value of `siblings`?**
@@ -60,8 +60,8 @@ let eldest = siblings[3];
 ## 3.
 
 ```
-   let shoppingList = ["eggs", "milk", "bread", "tomato sauce", "garlic"];
-   shoppingList[1] = "soy milk";
+  let shoppingList = ["eggs", "milk", "bread", "tomato sauce", "garlic"];
+  shoppingList[1] = "soy milk";
 ```
 
 **What is happening in line 2? What is the new value of `shoppingList`?**
@@ -92,9 +92,9 @@ Using `Array.splice()`: .splice() has several options for syntax. Here we can us
 ## 4.
 
 ```
-   let todoArray = ("walk the dog", "cook lunch", "make the bed", "vacuum");
-   todoArray.push("water plants");
-   console.log(todoArray[6]);
+  let todoArray = ("walk the dog", "cook lunch", "make the bed", "vacuum");
+  todoArray.push("water plants");
+  console.log(todoArray[6]);
 ```
 
 **What is wrong with this code?**
@@ -114,9 +114,9 @@ Using `Array.splice()`: .splice() has several options for syntax. Here we can us
 Add square brackets and use an index that is within the range of this array.
 
 ```
-let todoArray = ["walk the dog", "cook lunch", "make the bed", "vacuum"];
-todoArray.push("water plants");
-console.log(todoArray[5]);
+  let todoArray = ["walk the dog", "cook lunch", "make the bed", "vacuum"];
+  todoArray.push("water plants");
+  console.log(todoArray[5]);
 ```
 
 </details>
@@ -130,7 +130,7 @@ console.log(todoArray[5]);
 <br>
 
 ```
-let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
+  let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 ```
 
 </details>
@@ -142,8 +142,8 @@ let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
 <br>
 
 ```
-let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
-let daughter = familyArr[0];
+  let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
+  let daughter = familyArr[0];
 ```
 
 </details>
@@ -155,9 +155,9 @@ let daughter = familyArr[0];
 <br>
 
 ```
-let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
-let daughter = familyArr[0];
-let grandfather = familyArr[3];
+  let familyArr = ["Gina", "Farah", "Ari", "Stephen", "Ari", "Ralph"];
+  let daughter = familyArr[0];
+  let grandfather = familyArr[3];
 ```
 
 </details>

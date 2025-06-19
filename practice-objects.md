@@ -54,9 +54,9 @@ If you were to write this code and then console log the object again, you would 
       greenTea: "3.00",
       espresso: "3.00",
     };
-   cafe["cappuccino"] = "4.00";
-   cafe["chaiLatte"] = "4.60";
-   delete cafe.greenTea;
+    cafe["cappuccino"] = "4.00";
+    cafe["chaiLatte"] = "4.60";
+    delete cafe.greenTea;
 ```
 
 **What is the final value of `cafe`?**
@@ -119,15 +119,15 @@ console.log(absent["name"]);
 ## 4.
 
 ```
-   let forSaleObj = [
-    mirror: "5.00";
-    bedframe: "20.00";
-    lamp: "6.00";
-    blender: "15.00";
-    microwave: "40.00";
-   ];
-   forSale["microwave"] = "35.00";
-   console.log(forSale[3]);
+    let forSaleObj = [
+        mirror: "5.00";
+        bedframe: "20.00";
+        lamp: "6.00";
+        blender: "15.00";
+        microwave: "40.00";
+    ];
+    forSale["microwave"] = "35.00";
+    console.log(forSale[3]);
 ```
 
 **What is wrong with this code?**
