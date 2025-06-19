@@ -1,6 +1,6 @@
 # Array Practice
 
-## 1. Read the following code and answer the questions.
+## 1.
 
 ```
 let fibonacci = [1, 1, 2, 3, 5, 8, 13];
@@ -29,7 +29,7 @@ console.log(fibonacci[2]);
   You can read about `.push()` and other the Array methods on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">MDN</a>.
 </details>
 
-## 2. Read the following code and answer the questions.
+## 2.
 
 ```
 let sisters = ["paula", "tina", "mara"];
@@ -54,7 +54,7 @@ let eldest = siblings[3];
   In line 4 we create a variable called `eldest` which is equal to the item in `siblings` at index 3, i.e. `"mara"`.
 </details>
 
-## 3. Read the following code and answer the questions.
+## 3.
 
 ```
    let shoppingList = ["eggs", "milk", "bread", "tomato sauce", "garlic"];
@@ -84,7 +84,7 @@ let eldest = siblings[3];
   Using `Array.splice()`: .splice() has several options for syntax. Here we can use two parameters which represent starting index and delete count like so: shoppingList.splice(startIndex, deleteCount). Since we want to delete the last 2 items, we have to start at index 2 and delete 2 items: `shoppingList.splice(2, 2);`
 </details>
 
-## 4. Read the following incorrect code and answer the questions.
+## 4.
 
 ```
    let todoArray = ("walk the dog", "cook lunch", "make the bed", "vacuum");
@@ -114,7 +114,7 @@ Add square brackets and use an index that is within the range of this array.
   ```
 </details>
 
-## 5. Read the prompts and write your own code.
+## 5.
 
 ### a) Create an array of strings called `familyArr`. Every item is a name of a family member. The array should have length 6. The family member at index 2 should have the same name as the family member at index 5.
 
